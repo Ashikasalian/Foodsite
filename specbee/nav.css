@@ -4,10 +4,11 @@ body {
 }
 
 .navbar {
-    background-color:  rgb(6, 6, 228);;
+    background-color: rgb(6, 6, 228);
+    ;
     height: 50px;
     position: fixed;
-    z-index: 1 ;
+    z-index: 1;
     width: 100%;
 }
 
@@ -106,15 +107,17 @@ body {
     margin-top: 0.6rem;
     padding: 0.5rem 0.3rem;
     margin-left: 83rem;
-  }
-  .nav__contact__button:hover {
+}
+
+.nav__contact__button:hover {
     color: yellow;
     background-color: rgb(6, 6, 228);
-  }
-.logo{
+}
+
+/* .logo{
     margin: 0;
 }
-  .logo img{
+.logo img{
     width: 13.75rem;
     height: auto;
-  }
+  } */

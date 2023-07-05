@@ -1,0 +1,43 @@
+.order{
+    background-image: url("../footer.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    display: flex;
+    font-family: Arvo;
+    flex-direction: column;
+    position: relative;
+}
+.order__paragraph {
+    color: white;
+    margin-bottom: 120px;
+    position: relative;
+    top: 50%;
+    font-family: Arvo;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.order__paragraph p{
+    font-size: 50px;
+    font-weight: 50px;
+}
+
+.order__button{
+        position: relative;
+        padding: 20px 50px;
+        background-color: #e6181c;
+        color: white;
+        font-size: 26px;
+        text-decoration: none;
+        border-radius: 15px;
+        top:15%;
+        font-family: Arvo;
+}
+
+@media screen and (max-width: 850px) {
+    .order__paragraph p{
+        font-size: 40px;
+    }
+}

@@ -1,0 +1,52 @@
+footer {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+    height: auto;
+}
+
+.information {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;
+
+    h4 {
+        font-size: 30px;
+        font-family: Arvo;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .information p {
+        font-size: 17px;
+        margin-bottom: 10px;
+        /* font-family: Arvo; */
+    }
+
+    &.information__item {
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+    &__social-icons {
+        margin-top: 20px;
+    }
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arvo;
+
+    a {
+        color: #ec9c51;
+        text-decoration: none;
+        font-family: Arvo;
+        margin: 0 10px;
+    }
+}
+
+.fa-brands {
+    margin: 10px;
+}

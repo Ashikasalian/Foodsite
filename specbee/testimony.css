@@ -1,0 +1,108 @@
+.testimony {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.testimony__info {
+    padding: 30px;
+    margin-top: 2%;
+    width: 70%;
+    color: #0f0f0f;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.testimony__text {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 300;
+    font-size: 1.4rem;
+    margin-top: -30px;
+    margin-left: 130px;
+    padding-bottom: 5%;
+}
+
+.testimony__client-info {
+    margin-left: 130px;
+}
+
+.testimony__name {
+    margin-bottom: 2px;
+    font-size: 1.71rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+.testimony__des {
+    font-size: .9rem;
+    font-weight: 300;
+    line-height: normal;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .testi__info {
+        margin-right: -6%;
+        margin-top: -15%;
+        margin-bottom: 0;
+        margin-left: -8%;
+    }
+
+    .testi-quotes {
+        width: 90px;
+        height: 50px;
+    }
+
+    .testi__text {
+        margin-left: -5%;
+        margin-right: -5%;
+        padding-bottom: 5%;
+        font-size: 1rem;
+        margin-top: 4%;
+    }
+
+    .testi__name {
+        font-size: 1.5rem;
+        margin-top: 4%;
+        margin-left: 8%;
+    }
+
+    .testi__info {
+        margin-left: 8%;
+    }
+}
+
+
+
+.contact {
+    background-color: #0020f6;
+}
+
+.contact__title {
+    padding-top: 6rem;
+    text-align: center;
+    color: white;
+    font-size: 2.25rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bolder;
+}
+
+.contact__button {
+    background-color: #e3f307;
+    border: 0.0625rem solid #e3f307;
+    color: #0020f6;
+    border-radius: 0.3125rem;
+    display: inline-block;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    font-size: .75rem;
+    font-weight: 700;
+    letter-spacing: .125rem;
+    margin-top: 2.6rem;
+    margin-left: 40rem;
+    margin-bottom: 6rem;
+    padding: 0.5rem 2.5rem;
+}
+
+.contact__button:hover {
+    color: #e3f307;
+    background-color: #0020f6;
+
+}

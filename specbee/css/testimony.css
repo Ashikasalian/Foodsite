@@ -1,0 +1,173 @@
+.testimony {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.testimony__info {
+  color: black;
+  padding-top: 25px;
+  padding-left: 145px;
+  padding-right: 145px;
+  padding-bottom: 145px;
+  margin-top: -6%;
+  background-color: #f5f5f5;
+}
+.testimony-quotes {
+  width: 113px;
+  height: 63px;
+}
+.testimony__text {
+  margin-top: -3%;
+  margin-left: 130px;
+  padding-bottom: 2%;
+  font-size: 1.7rem;
+}
+.testimony__client-info {
+  color: black;
+  margin-left: 12%;
+}
+.testimony___name {
+  font-size: 1.75rem;
+  margin-bottom: -2%;
+  font-weight: 800;
+  font-family: "Montserrat", sans-serif;
+}
+.testimony__des {
+  margin-top: 2%;
+}
+@media screen and (max-width: 767px) {
+  .testimony__info {
+    margin-top: -25%;
+    color: black;
+    padding-left: 28px;
+    padding-right: 21px;
+    padding-bottom: 90px;
+  }
+  .testimony-quotes {
+    margin-left: -5%;
+    width: 50px;
+    height: 50px;
+  }
+  .testimony__text {
+    margin-left: -5%;
+    margin-right: -5%;
+    padding-bottom: 5%;
+    font-size: 1rem;
+    margin-top: -3%;
+  }
+  .testimony__client-info {
+    margin-left: -5%;
+  }
+  .testimony__name {
+    font-size: 1.2rem;
+    margin-bottom: 1%;
+  }
+  .testimony__des {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .testimony__info {
+    margin-right: -6%;
+    margin-top: -15%;
+    margin-bottom: 0;
+    margin-left: -8%;
+  }
+  .testimony-quotes {
+    width: 90px;
+    height: 40px;
+    margin-top: 30px;
+    margin-left: -67px;
+    width: 64px;
+  }
+  .testimony__text {
+    margin-left: 0px;
+    margin-right: -41px;
+  }
+  .testimony__client-info {
+    margin-left: -45px;
+    padding-top: 12px;
+  }
+  .testimony__name {
+    font-size: 1.5rem;
+    margin-top: 4%;
+    margin-left: 8%;
+  }
+  .testimony__des {
+    margin-left: 8%;
+  }
+}
+
+.contact {
+  background-color: rgb(6, 6, 228);
+}
+.contact__title {
+  padding-top: 6rem;
+  text-align: center;
+  color: #f5f5f5;
+  font-size: 2.25rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+}
+.contact__button {
+  background-color: yellow;
+  border: 0.0625rem solid yellow;
+  color: rgb(6, 6, 228);
+  border-radius: 0.3125rem;
+  display: inline-block;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.125rem;
+  margin-top: 2.6rem;
+  margin-left: 40rem;
+  margin-bottom: 6rem;
+  padding: 0.5rem 2.5rem;
+}
+.contact__button:hover {
+  color: yellow;
+  background-color: rgb(6, 6, 228);
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .contact__button {
+    background-color: yellow;
+    border: 0.0625rem solid yellow;
+    color: #001186;
+    border-radius: 0.3125rem;
+    display: inline-block;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.125rem;
+    margin-top: 3.5rem;
+    margin-left: 38%;
+    margin-bottom: 6rem;
+    padding: 0.5rem 2.5rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .contact__title {
+    padding-top: 6rem;
+    text-align: center;
+    color: #f5f5f5;
+    font-size: 2rem;
+    font-weight: 800;
+  }
+  .contact__button {
+    background-color: yellow;
+    border: 0.0625rem solid yellow;
+    color: #001186;
+    border-radius: 0.3125rem;
+    display: inline-block;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.125rem;
+    margin-top: 3.5rem;
+    margin-left: 30%;
+    margin-bottom: 6rem;
+    padding: 0.5rem 2.5rem;
+  }
+}

@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.page {
+    background-image: url("gallery-9.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: white;
+    width: max-content;
+    height: 450px;
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    margin: auto;
+}
+
+.logo {
+    margin-bottom: 20px;
+}
+
+.delivery-label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.dropdown {
+    width: 400px;
+    margin-bottom: 10px;
+    height: 40px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.radio-container {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    width: 150px;
+}
+
+.radio-container input[type="radio"] {
+    display: none;
+}
+
+.radio-container label {
+    font-size: 16px;
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.radio-container label:before {
+    content: '';
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin-right: 5px;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.radio-container input[type="radio"]:checked + label:before {
+    background-color: #ff0000;
+    border-color: #f90c0c;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #de0909;
+    border: none;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.button:hover {
+    background-color: #f90707;
+}

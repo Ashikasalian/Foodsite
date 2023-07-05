@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+.banner {
+    background-image: url("../artesanal-pizza-cheese-close-up-crust.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    position: relative;
+    font-family: Arvo;
+    }
+    .banner__content {
+        color: white;
+        margin-bottom: 120px;
+        position: relative;
+        top: 50%;
+        margin-left:10px ;
+        font-family: Arvo;
+    }
+
+    .banner__content h1 {
+        font-size: 36px;
+        margin-bottom: 10px;
+        }
+
+    .banner__content p{
+        font-size: 36px;
+        font-weight: bold;
+        font-family: Arvo;
+    }
+
+    .banner__content__button {
+        padding: 20px 50px;
+        background-color: #e6181c;
+        color: white;
+        font-size: 26px;
+        text-decoration: none;
+        border-radius: 15px;
+        font-family: Arvo;
+        top: 8%;
+        position: relative;
+    }
+    /* .banner__content__social-links ul{
+        position: absolute;
+        top: 20%;
+        left: 93%;
+        list-style: none;
+    }
+    .banner__content__social-links li{
+        margin:80px 0px;
+        transform: rotate(90deg);
+    }
+    .banner__content__social-links a{
+        text-decoration: none;
+        color: #FFF;
+    } */
+
+
+    @media screen and (max-width: 600px) {
+        .banner {
+            /* background-size: cover;
+            background-position: center; */
+            height: 100vh;
+            display: flex;
+            width:100%;
+            font-family: Arvo;
+            }
+        .banner__content {
+          margin-bottom: 60px;
+        }
+
+        .banner__content h1 {
+          font-size: 20px;
+        }
+
+        .banner__content p {
+          font-size: 20px;
+        }
+
+        .banner__content__button {
+          padding: 15px 40px;
+          font-size: 22px;
+        }
+      }
+

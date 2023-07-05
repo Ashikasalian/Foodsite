@@ -1,0 +1,96 @@
+@use './abstract/colors' as *;
+
+.standing{
+    margin-bottom: 10rem;
+
+&__heading {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Hanson, sans-serif;
+    font-size: 5rem;
+    padding-top: 5rem;
+    color: $primary-blue;
+
+    &::before {
+        content: "";
+        height: 0.75rem;
+        width: 100px;
+        display: inline-block;
+        padding-bottom: 0px;
+        margin-bottom: 15px;
+        vertical-align: middle;
+        margin-right: 54px;
+        background-color: $yellow;
+    }
+}
+    &__wrapper {
+        max-width: 75rem;
+        padding-top: 50px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1.5rem;
+    }
+
+    &__cards {
+        width: 30%;
+        text-align: center;
+        position: relative;
+        box-shadow: 0 0 0 transparent;
+        height: 23rem;
+        position: relative;
+        background-color: $white;
+    }
+
+    &__cards img{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+
+
+    &__para {
+        text-align: left;
+        margin: 0 20px;
+    }
+
+    &_sub_heading {
+        text-align: left;
+        font-family: Hanson, sans-serif;
+        font-size: 17px;
+        margin: 0 12px;
+        margin-bottom: 8px;
+        margin-right: 20px;
+        margin-left: 20px;
+        color: $navy-blue;
+
+        &::after {
+            background-color: $primary-blue;
+            content: "";
+            height: 0.25rem;
+            position: absolute;
+            right: -0.048rem;
+            width: 4rem;
+
+        }
+    }
+}
+
+.overlay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    background-color: $white;
+    width: 100%;
+    transition: all 0.25s ease-in-out;
+    height: 6rem;
+
+}
+
+.standing__cards:hover .overlay{
+    height: 100%;
+}

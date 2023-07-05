@@ -1,0 +1,126 @@
+.introduction {
+    background-image: url("../bg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: max-content;
+    font-family: Arvo;
+    position: relative;
+    width:100%;
+}
+
+.introduction__text {
+    position: relative;
+    top: 50%;
+    left: 55%;
+    font-family: Arvo;
+    max-width: 40%;
+    /* padding: 20px; */
+    text-align: justify;
+    padding:50px 0px;
+
+}
+
+.section-heading {
+    font-size: 52px;
+    margin-bottom: 20px;
+    font-family: Arvo;
+
+}
+
+.section-paragraph {
+    font-family: Arvo;
+    font-size: 18px;
+    line-height: 2;
+    font-weight: 50px;
+    margin-bottom: 20px;
+}
+.introduction a{
+    color: #e6181c;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: Arvo;
+}
+
+.story {
+    display: flex;
+    height: max-content;
+    font-family: Arvo;
+    text-align: justify;
+}
+
+.story__text {
+    flex: 1;
+    padding: 50px;
+}
+
+.story__image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.story__image img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 15px;
+}
+
+.story__text__paragraph{
+    text-align: start;
+}
+
+
+
+
+@media screen and (max-width: 850px) {
+    .introduction__text {
+        left:10%;
+        font-family: Arvo;
+        /* padding: 20px; */
+        max-width: 80%;
+
+    }
+    .introduction {
+        text-align: center;
+        font-family: Arvo;
+        position: relative;
+        width:100%;
+    }
+
+    .section-heading {
+        font-size: 32px;
+        margin-bottom: 20px;
+        font-family: Arvo;
+        text-align: center;
+
+    }
+
+    .story {
+        display: block;
+        height: max-content;
+        font-family: Arvo;
+        text-align: justify;
+    }
+
+    .story__text {
+        width:100%;
+        text-align: justify;
+    }
+
+    .story__image {
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10%;
+    }
+
+    .story__image img {
+        max-width: 90%;
+        max-height: 100%;
+        border-radius: 15px;
+    }
+    .story__text__paragraph{
+        text-align: justify;
+    }
+  }

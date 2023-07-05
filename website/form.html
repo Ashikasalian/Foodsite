@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>U S Pizza</title>
+    <link rel="stylesheet" href="form.css" />
+    <link rel="icon" type="image/x-icon" href="download.jpg" />
+  </head>
+  <body>
+    <div class="page">
+      <div class="form-container">
+        <div class="logo">
+          <a href="index.html"><img src="logo.png" alt="Logo" /></a>
+        </div>
+
+        <label class="delivery-label" for="delivery-location"
+          >Select Your Delivery Location:</label
+        >
+        <select class="dropdown" id="delivery-location">
+          <option value=" " disabled selected hidden>Select City</option>
+          <option value="option2">Option 2</option>
+          <option value="option3">Option 3</option>
+          <option value="option3">Option 3</option>
+        </select>
+
+        <select class="dropdown">
+          <option value="select" disabled selected hidden>
+            Select Your Location
+          </option>
+          <option value="Mangalore">Option 1</option>
+          <option value="option2">Option 2</option>
+          <option value="option3">Option 3</option>
+        </select>
+
+        <select class="dropdown">
+          <option value=" " disabled selected hidden>Select Branch</option>
+          <option value="option1">Option 1</option>
+          <option value="option2">Option 2</option>
+          <option value="option3">Option 3</option>
+        </select>
+
+        <div class="container">
+          <div class="radio-container">
+            <input type="radio" id="pickup" name="delivery-type" />
+            <label for="pickup">Pickup</label>
+          </div>
+
+          <div class="radio-container">
+            <input type="radio" id="home-delivery" name="delivery-type" />
+            <label for="home-delivery">Home Delivery</label>
+          </div>
+        </div>
+
+        <button class="button" type="submit">Order Now</button>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,207 @@
+@use './abstract/colors' as *;
+
+
+.testimony {
+    padding-left: 16px;
+    padding-right: 16px;
+
+    &__info {
+        color: $black;
+        padding-top: 25px;
+        padding-left: 145px;
+        padding-right: 145px;
+        padding-bottom: 145px;
+        margin-top: -6%;
+        background-color: $white;
+    }
+
+    &-quotes {
+        width: 113px;
+        height: 63px;
+    }
+
+    &__text {
+        margin-top: -3%;
+        margin-left: 130px;
+        padding-bottom: 2%;
+        font-size: 1.7rem;
+    }
+
+    &__client-info {
+        color: $black;
+        margin-left: 12%;
+    }
+
+    &___name {
+            font-size: 1.75rem;
+            margin-bottom: -2%;
+            font-weight: 800;
+            font-family: "Montserrat", sans-serif;
+        }
+
+        &__des {
+            margin-top: 2%;
+        }
+
+
+    @media screen and (max-width: 767px) {
+        &__info {
+            margin-top: -25%;
+            color: $black;
+            padding-left: 28px;
+            padding-right: 21px;
+            padding-bottom: 90px;
+        }
+
+        &-quotes {
+            margin-left: -5%;
+            width: 50px;
+            height: 50px;
+        }
+
+        &__text {
+            margin-left: -5%;
+            margin-right: -5%;
+            padding-bottom: 5%;
+            font-size: 1.0rem;
+            margin-top: -3%;
+
+        }
+
+        &__client-info {
+            margin-left: -5%;
+        }
+
+        &__name {
+            font-size: 1.2rem;
+            margin-bottom: 1%;
+        }
+
+        // margin-top: 1%;
+
+        &__des {
+            font-size: 0.8rem;
+        }
+    }
+
+    @media screen and (min-width: 768px) and (max-width: 1023px) {
+        &__info {
+            margin-right: -6%;
+            margin-top: -15%;
+            margin-bottom: 0;
+            margin-left: -8%;
+        }
+
+        &-quotes {
+            width: 90px;
+            height: 40px;
+            margin-top: 30px;
+            margin-left: -67px;
+            width: 64px;
+        }
+
+        &__text {
+            margin-left: 0px;
+            margin-right: -41px;
+        }
+
+        &__client-info {
+            margin-left: -45px;
+            padding-top: 12px;
+        }
+
+        &__name {
+            font-size: 1.5rem;
+            margin-top: 4%;
+            margin-left: 8%;
+        }
+
+        &__des {
+            margin-left: 8%;
+        }
+
+    }
+}
+
+
+.contact {
+    background-color: $primary-blue;
+
+    &__title {
+        padding-top: 6rem;
+        text-align: center;
+        color: $white;
+        font-size: 2.25rem;
+        font-family: "Montserrat",sans-serif;
+        font-weight: bolder;
+    }
+
+    &__button {
+        background-color: $yellow;
+        border: 0.0625rem solid $yellow;
+        color: $primary-blue;
+        border-radius: 0.3125rem;
+        display: inline-block;
+        font-family: "Montserrat",sans-serif;
+        text-decoration: none;
+        font-size: .75rem;
+        font-weight: 700;
+        letter-spacing: .125rem;
+        margin-top: 2.6rem;
+        margin-left: 40rem;
+        margin-bottom: 6rem;
+        padding: 0.5rem 2.5rem;
+    }
+
+    &__button:hover {
+        color: $yellow;
+        background-color: $primary-blue;
+
+    }
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    &__button {
+        background-color: $yellow;
+        border: 0.0625rem solid $yellow;
+        color: $navy-blue;
+        border-radius: 0.3125rem;
+        display: inline-block;
+        font-family: "Montserrat", sans-serif;
+        text-decoration: none;
+        font-size: 0.75rem;
+        font-weight: 700;
+        letter-spacing: 0.125rem;
+        margin-top: 3.5rem;
+        margin-left: 38%;
+        margin-bottom: 6rem;
+        padding: 0.5rem 2.5rem;
+    }
+}
+@media screen and (max-width: 767px) {
+    &__title {
+        padding-top: 6rem;
+        text-align: center;
+        color: $white;
+        font-size: 2rem;
+        font-weight: 800;
+    }
+    &__button {
+        background-color: $yellow;
+    border: 0.0625rem solid $yellow;
+    color: $navy-blue;
+    border-radius: 0.3125rem;
+    display: inline-block;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.125rem;
+    margin-top: 3.5rem;
+    margin-left: 30%;
+    margin-bottom: 6rem;
+    padding: 0.5rem 2.5rem;
+    }
+    }
+}

@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+.page {
+    background-image: url("artesanal-pizza-cheese-close-up-crust.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    }
+
+.navbar {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo img {
+    height: 70px;
+    margin-left: 50px;
+}
+
+.navbar__list {
+    list-style-type: none;
+    margin: 10px;
+}
+
+.navbar__item {
+    display: inline-block;
+    margin-left: 10px;
+    margin: 15px;
+    font-size: 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    }
+.content-order {
+    color: white;
+    margin-bottom: 120px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+
+}
+
+.content-order p{
+    font-size: 100px;
+    font-weight: 50px;
+}
+.about{
+    text-align: center;
+    font-size: 15px;
+    width: 800px;
+    margin: 0 auto;
+    line-height: 2.0;
+    margin-top: 20px;
+
+}
+footer {
+    background-color: #000000;
+    color: #FFF;
+    padding: 20px;
+    height: auto;
+}
+
+.flexes-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+    text-align: center;
+}
+
+.flexes-container h2 {
+    font-size: 30px;
+    margin: 10px;
+    text-align: center;
+}
+
+.flexes-container p {
+    font-size: 17px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation a {
+    color: #FFF;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.yt{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+
+}
+.yt iframe{
+    margin: 20px;
+}
+
+.fa-brands{
+    margin: 10px;
+}
+.icons{
+    margin-top: 20px;
+}
+.features{
+    background-image: url("bg.jpg");
+    height: 50vh;
+    position: relative;
+    display: flex;
+}
+.features__item{
+    margin: 100px;
+    width: 177px;
+    font-size: 18px;
+    font-family: Arvo;
+    font-weight: 900;
+}
+.features__items{
+    position: absolute;
+    display: flex;
+
+}
